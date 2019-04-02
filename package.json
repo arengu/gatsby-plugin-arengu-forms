@@ -6,16 +6,17 @@
   "license": "MIT",
   "main": "./src/index.js",
   "keywords": [
-    "online",
-    "forms",
-    "form",
-    "builder",
-    "sign-up",
-    "forms",
-    "contact",
-    "form",
-    "gastby plugin",
-    "gastby forms"
+    "arengu",
+    "arengu-form",
+    "online-form",
+    "web-form",
+    "static-form",
+    "form-builder",
+    "signup-form",
+    "payment-form",
+    "contact-form",
+    "gatsby",
+    "gatsby-plugin"
   ],
   "scripts": {
     "build": "babel src --out-dir . --ignore **/__tests__",
