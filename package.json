@@ -1,0 +1,55 @@
+{
+  "name": "gatsby-plugin-arengu-forms",
+  "description": "Gatsby plugin to embed Arengu forms on your site",
+  "version": "1.0.0",
+  "author": "Jacobo Vidal <jacobo.vidal@arengu.com>",
+  "license": "MIT",
+  "main": "./src/index.js",
+  "keywords": [
+    "online",
+    "forms",
+    "form",
+    "builder",
+    "sign-up",
+    "forms",
+    "contact",
+    "form",
+    "gastby plugin",
+    "gastby forms"
+  ],
+  "scripts": {
+    "build": "babel src --out-dir . --ignore **/__tests__",
+    "prepublishOnly": "cross-env NODE_ENV=production npm run build",
+    "watch": "npm run build -- -w"
+  },
+  "gitHooks": {
+    "pre-commit": "lint-staged"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.1.0",
+    "@babel/core": "^7.1.0",
+    "@babel/plugin-proposal-class-properties": "^7.1.0",
+    "@babel/plugin-proposal-optional-chaining": "^7.0.0",
+    "@babel/plugin-transform-runtime": "^7.1.0",
+    "@babel/preset-env": "^7.1.0",
+    "@babel/preset-flow": "^7.0.0",
+    "@babel/preset-react": "^7.0.0",
+    "babel-eslint": "^9.0.0",
+    "cross-env": "^5.2.0",
+    "eslint": "^5.6.0",
+    "eslint-config-google": "^0.10.0",
+    "eslint-config-prettier": "^3.0.1",
+    "eslint-plugin-flowtype": "^2.50.1",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-jsx-a11y": "^6.1.1",
+    "eslint-plugin-prettier": "^2.6.2",
+    "eslint-plugin-react": "^7.11.1",
+    "flow-bin": "^0.81.0",
+    "lint-staged": "^7.3.0",
+    "prettier-eslint-cli": "^4.7.1",
+    "yorkie": "^2.0.0"
+  },
+  "peerDependencies": {
+    "gatsby": "^2.0.0"
+  }
+}
