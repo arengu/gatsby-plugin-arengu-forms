@@ -1,6 +1,6 @@
 # Arengu Forms for Gatsby websites
 
-This Gatsby plugin allows you to easily embed Arengu Forms into your Gatsby website.
+This Gatsby plugin allows you to easily embed [Arengu Forms](https://www.arengu.com) into your Gatsby website.
 
 ## Install
 
