@@ -16,7 +16,7 @@ Add the Arengu Forms plugin to your `gatsby-config.js` file:
 plugins: [`gatsby-plugin-arengu-forms`]
 ```
 
-This plugin will load into your website our (JavaScript SDK)[https://github.com/arengu/forms-js-sdk] asynchronously, so it won’t affect your website load speed.
+This plugin will load into your website our [JavaScript SDK](https://github.com/arengu/forms-js-sdk) asynchronously, so it won’t affect your website load speed.
 
 ## Usage
 
