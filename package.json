@@ -1,7 +1,7 @@
 {
   "name": "gatsby-plugin-arengu-forms",
   "description": "Gatsby plugin to embed Arengu forms on your site",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "Jacobo Vidal <jacobo.vidal@arengu.com>",
   "license": "MIT",
   "main": "./src/index.js",
